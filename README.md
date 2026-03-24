@@ -1,2 +1,4 @@
-Моё резюме доступно по ссылке:  
-[https://AlexsandrKukulin.github.io/rsschool-cv/cv](https://AlexsandrKukulin.github.io/rsschool-cv/cv)
+# CV
+
+Моё резюме, свёрстанное с использованием HTML и CSS, доступно по адресу:
+[https://AlexsandrKukulin.github.io/rsschool-cv/](https://AlexsandrKukulin.github.io/rsschool-cv/)
