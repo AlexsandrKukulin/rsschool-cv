@@ -18,7 +18,7 @@ My goal is to become a frontend developer.
 - HTML / CSS /JS (beginner)
 
 ## Code Example
--standard output hello world!
+-standard output Hello, RS School!
 ```c
 #include <stdio.h>
 
