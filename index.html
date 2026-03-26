@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +7,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Александр Кукулин</h1>
-        <p>Junior Frontend Developer</p>
-    </header>
-    <main>
-        <section>
-            <h2>Контакты</h2>
-            <ul>
-                <li>Email: a.kykylin@gmail.com</li>
-                <li>GitHub: github.com/AlexsandrKukulin</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Навыки</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </section>
-        <!-- Добавьте другие секции по желанию -->
-    </main>
-    <footer>
-        <p>&copy; 2026 Александр Кукулин</p>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Александр Кукулин</h1>
+            <p class="title">Junior Frontend Developer</p>
+        </header>
+        <main>
+            <section>
+                <h2>Контакты</h2>
+                <ul class="contacts-list">
+                    <li><strong>Местоположение:</strong> Россия, Москва</li>
+                    <li><strong>Email:</strong> <a href="mailto:a.kykylin@gmail.com">a.kykylin@gmail.com</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/AlexsandrKukulin" target="_blank">AlexsandrKukulin</a></li>
+                    <li><strong>Телефон:</strong> +7 905 017-88-83</li>
+                </ul>
+            </section>
+            <section>
+                <h2>О себе</h2>
+                <p>Специалист в области IT, обучаюсь frontend разработке на курсе RS School. Имею опыт работы с Linux системами и базовые навыки программирования на C. Цель - стать frontend разработчиком.</p>
+            </section>
+            <section>
+                <h2>Навыки</h2>
+                <ul class="skills-list">
+                    <li>HTML / CSS / JavaScript (начинающий уровень)</li>
+                    <li>Git / GitHub</li>
+                    <li>Linux (терминал, базовые команды)</li>
+                    <li>C (базовый уровень)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Опыт</h2>
+                <ul class="experience-list">
+                    <li><strong>RS School Stage 0</strong> (2026) — обучение Git, GitHub, Markdown, HTML/CSS</li>
+                    <li><strong>Личная практика</strong> (2025–2026) — Linux, терминал, программирование на C</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Образование</h2>
+                <ul class="education-list">
+                    <li><strong>Школа 21</strong> — курс программирования на C (2026)</li>
+                    <li><strong>Самообучение</strong> — frontend разработка (HTML, CSS, Git)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Пример кода</h2>
+                <p>"<em>Hello, RS School!</em>" на языке C:</p>
+                <pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, RS School!\n");
+    return 0;
+}</code></pre>
+            </section>
+            <section>
+                <h2>Английский язык</h2>
+                <ul class="language-list">
+                    <li><strong>Уровень:</strong> A2</li>
+                    <li><strong>Чтение:</strong> Могу читать техническую документацию</li>
+                    <li><strong>Письмо:</strong> Могу писать простые тексты</li>
+                    <li><strong>Говорение:</strong> Базовое общение</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Александр Кукулин. Все права защищены.</p>
+        </footer>
+    </div>
 </body>
 </html>
